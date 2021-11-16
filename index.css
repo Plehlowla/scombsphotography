@@ -39,3 +39,8 @@ body, html {
     color: white;
   }
 
+@media screen and (min-width: 500px) {
+    .resText h1{
+        font-size: 10px;
+    }
+}
