@@ -4,7 +4,7 @@ body, html {
     font-family: Arial, Helvetica, sans-serif;
     overflow-y: hidden;
     overflow-x: hidden;
-  }
+}
   
   .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("sam2.jpg");
@@ -13,7 +13,7 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-  }
+}
   
   .hero-text {
     text-align: left;
@@ -22,9 +22,9 @@ body, html {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-  }
+}
   
-  .hero-text button {
+  .hero-text a {
     border: none;
     outline: 0;
     display: inline-block;
@@ -33,12 +33,16 @@ body, html {
     background-color: #ddd;
     text-align: center;
     cursor: pointer;
-  }
+    border-radius: 10px;
+    text-decoration-style: none;
+    text-decoration: none;
+    font-weight: bold;
+}
   
-  .hero-text button:hover {
+  .hero-text a:hover {
     background-color: #555;
     color: white;
-  }
+}
 
 @media screen and (min-width: 500px) {
     body, html {
